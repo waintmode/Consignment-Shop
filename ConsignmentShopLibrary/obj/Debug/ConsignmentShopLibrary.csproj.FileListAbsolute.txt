@@ -1,0 +1,6 @@
+c:\users\ilu\documents\visual studio 2017\Projects\ConsignmentShop\ConsignmentShopLibrary\bin\Debug\ConsignmentShopLibrary.dll
+c:\users\ilu\documents\visual studio 2017\Projects\ConsignmentShop\ConsignmentShopLibrary\bin\Debug\ConsignmentShopLibrary.pdb
+c:\users\ilu\documents\visual studio 2017\Projects\ConsignmentShop\ConsignmentShopLibrary\obj\Debug\ConsignmentShopLibrary.csproj.CoreCompileInputs.cache
+c:\users\ilu\documents\visual studio 2017\Projects\ConsignmentShop\ConsignmentShopLibrary\obj\Debug\ConsignmentShopLibrary.dll
+c:\users\ilu\documents\visual studio 2017\Projects\ConsignmentShop\ConsignmentShopLibrary\obj\Debug\ConsignmentShopLibrary.pdb
+C:\Users\ILU\documents\visual studio 2017\Projects\ConsignmentShop\ConsignmentShopLibrary\obj\Debug\ConsignmentShopLibrary.csprojResolveAssemblyReference.cache
