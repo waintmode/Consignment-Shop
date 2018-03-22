@@ -81,44 +81,73 @@ namespace ConsignmentShopUI
             //store.Vendors.Add(demoVendor);
 
 
-            store.Vendors.Add(new Vendor { FirstName = "Bill", LastName = "Smith" });
-            store.Vendors.Add(new Vendor { FirstName = "Sue", LastName = "Jones" });
+            store.Vendors.Add(new Vendor { FirstName = "Dellen", LastName = "Corporation" });
+            store.Vendors.Add(new Vendor { FirstName = "Examinos", LastName = "Corporation" });
+            store.Vendors.Add(new Vendor { FirstName = "Waint", LastName = "Corporation" });
 
             store.Items.Add(new item
             {
-                Title = "Moby Dick",
-                Description = "A book about a whale",
-                Price = 4.50M,
+                Title = "PowerEdge T30 Mini Tower Server",
+                Description = "New Dell PowerEdge T30 Mini Tower Server, with 3.5 1TB Entry HDD 4GB DIMM Intel Pentium G4400 3.3 GHz 2C / 2T",
+                Price = 324.00M,
+                Owner = store.Vendors[2]
+            });
+
+            store.Items.Add(new item
+            {
+                Title = "ProLiant DL380",
+                Description = "ProLiant DL380 G6 2U 64-bit Server with 2xQuad-Core E5540 Xeon 2.53GHz + 16GB RAM + 8x146GB 10K SAS HDD, RAID, NO OS",
+                Price = 255.00M,
+                Owner = store.Vendors[2]
+            });
+
+            store.Items.Add(new item
+            {
+                Title = "ProLiant DL360",
+                Description = "ProLiant DL360 G7 1U 64-bit Server with 2xSix-Core X5650 Xeon 2.66GHz + 32GB RAM + 4x146GB 10K SAS HDD, RAID, NO OS",
+                Price = 259.99M,
                 Owner = store.Vendors[0]
             });
 
             store.Items.Add(new item
             {
-                Title = "A Tale of Two Cities",
-                Description = "A book about a city",
-                Price = 4.90M,
-                Owner = store.Vendors[0]
-            });
-
-
-            store.Items.Add(new item
-            {
-                Title = "Harry Potter Book 1",
-                Description = "A book about a boy",
-                Price = 5.20M,
+                Title = "ThinkServer TS140",
+                Description = "ThinkServer TS140 70A40037UX 4U Tower Server Intel Core i3-4150 3.5Ghz",
+                Price = 693.69M,
                 Owner = store.Vendors[1]
             });
 
             store.Items.Add(new item
             {
-                Title = "Jane Eyre",
-                Description = "A book about a Girl",
-                Price = 1.50M,
+                Title = "High-End Server",
+                Description = "High-End Virtualization Server 12-Core 128GB RAM 12TB RAID PowerEdge R710",
+                Price = 1556.00M,
+                Owner = store.Vendors[1]
+            });
+            store.Items.Add(new item
+            {
+                Title = "R610 Virtualization Server",
+                Description = "PowerEdge R610 Virtualization Server 2.53GHz 8-Core E5540 32GB 2x146GB PERC6",
+                Price = 215.00M,
+                Owner = store.Vendors[0]
+            });
+            store.Items.Add(new item
+            {
+                Title = "ProLiant EntryServer",
+                Description = "837826-001 ProLiant ML10 Entry Server, 4 GB RAM, No HDD, Black",
+                Price = 6003.69M,
+                Owner = store.Vendors[1]
+            });
+            store.Items.Add(new item
+            {
+                Title = "DL360 64-bit Server",
+                Description = "ProLiant DL360 G6 1U RackMount 64-bit Server with 2xQuad-Core X5550 Xeon 2.66GHz CPU + 24GB PC3-10600R RAM + 8x146GB 10K SAS SFF HDD, P410i RAID, 2xGigaBit NIC, 2xPower Supplies, NO OS",
+                Price = 250.12M,
                 Owner = store.Vendors[0]
             });
 
-           
-            store.Name = "Seconds of Better";
+
+            store.Name = "Grand Evolution World";
         }
 
         private void addToCart_Click(object sender, EventArgs e)
@@ -161,6 +190,11 @@ namespace ConsignmentShopUI
         }
 
         private void storeProfitLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void descriptionBox_TextChanged(object sender, EventArgs e)
         {
 
         }
